@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="us_avoid_collision" pkg="cmr_neo_ultrasonic" type="us_avoid_collision" respawn="false" output="screen">
+    <param name="thresh_reduce_front_left" value="0.5"/><!-- Distance to reduce speed 0.6-->
+    <param name="thresh_stop_front_left" value="0.25"/><!-- Distance to stop 0.35-->   
+    <param name="thresh_reduce_front_right" value="0.5"/><!-- Distance to reduce speed 0.6-->
+    <param name="thresh_stop_front_right" value="0.25"/><!-- Distance to stop 0.35-->
+    <param name="thresh_reduce_back_right" value="0.5"/><!-- Distance to reduce speed 0.6-->
+    <param name="thresh_stop_back_right" value="0.25"/><!-- Distance to stop 0.35-->      
+    <param name="thresh_reduce_back_center" value="0.6"/><!-- Distance to reduce speed 0.6-->
+    <param name="thresh_stop_back_center" value="0.35"/><!-- Distance to stop 0.35-->
+    <param name="thresh_reduce_back_left" value="0.5"/><!-- Distance to reduce speed 0.6-->
+    <param name="thresh_stop_back_left" value="0.25"/><!-- Distance to stop 0.35-->   
+    <param name="max_dur_vel" value="1.5"/><!-- Time to stop robot after last command received -->
+  </node>
+</launch>

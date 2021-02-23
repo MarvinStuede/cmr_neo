@@ -1,0 +1,5 @@
+email_distributor: ['marvin.stuede@imes.uni-hannover.de']
+mail_transfer_protocol: 'smtp.gmail.com'
+mail_port: 587
+robo_mail: 'sobi.information@gmail.com'
+mail_auth: 'U8vBv2HD1EaE7L9v4b1196cRVqmKmb6lJSmlNhU7tTY=' # Encrypted password, token should be in an environment variable

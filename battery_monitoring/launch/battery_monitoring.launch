@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- LOAD PARAMETERS -->
+	<rosparam file="$(find battery_monitoring)/cfg/params.yaml" command="load" ns="battery_monitoring" />	
+
+	<!-- LAUNCH NODE -->
+	<node name="battery_monitoring" pkg="battery_monitoring" type="battery_monitoring" output="screen" />
+    <node name="email_shutdown_node" pkg="battery_monitoring" type="email_shutdown_node.py" output="screen" />
+</launch>

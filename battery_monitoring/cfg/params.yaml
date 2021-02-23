@@ -1,0 +1,14 @@
+#voltage when the battery is considered fully charged [v]
+voltage_full: 27.45
+
+#voltage when the battery charge is considered low [v] 23.60 24.6 24.90
+voltage_start_recharging:  23.50 #24.00
+
+#maximum time for recharging [s] 12000.00 
+recharge_time: 7200.00
+
+#time to start nightly recharging in hours
+start_hour: 20.00 #19.00
+
+#time for recharging during night[s] 50400.00 
+recharge_time_night: 46800.00

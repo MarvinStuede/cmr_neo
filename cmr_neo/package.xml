@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cmr_neo</name>
+  <version>0.1.0</version>
+  <description>Packages to run on the Neobotix Platform MP-500</description>
+
+  <maintainer email="Marvin.Stuede@imes.uni-hannover.de">Marvin Stuede</maintainer>
+  <license>BSD</license>
+  <author email="Marvin.Stuede@imes.uni-hannover.de">Marvin Stuede</author>
+
+  <depend>battery_monitoring</depend>
+  <depend>cmr_neo_ultrasonic</depend>
+  <depend>velocity_smoother</depend>
+  <export>
+    <metapackage />
+  </export>
+</package>

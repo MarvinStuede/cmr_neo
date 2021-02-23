@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>battery_monitoring</name>
+  <version>0.1.0</version>
+  <description>battery_monitoring</description>
+
+  <maintainer email="my_name@todo.todo">My Name</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>cmr_msgs</depend>
+  <depend>neo_msgs</depend>
+  <depend>cmr_api</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>message_generation</depend>
+
+</package>
